@@ -1,6 +1,8 @@
 ;(function () {
   'use strict'
 
+  let timerId;
+
   const get = (target) => {
     return document.querySelector(target)
   }
